@@ -1,80 +1,58 @@
 <!DOCTYPE html>
-<!--Boilerplate = code used often like those stamps for newspapers-->
+
 <html>
     <head>
-        <meta charset="utf-8"><!--standart text and emoji encoding-->
-        <title>Alex Elman's Personal Site</title>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="icon" href="favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">        
     </head>
     <body>
-        <table cellspacing="20">
-            <tr>
-                <td><img src="no image image.jpg" alt="no image available image"></td>
-                <td>    <h1>Alex Elman</h1>
-                    <p><em>Student at the <strong>Bundesgymnasium Bruck an der Leitha</strong>.</em></p>
-                    <p>I'm currently a student at a gymnasium in austria and like to programm in my free time. I also love pc's and would like to watercool my pc one day.</p>
-                    </td>
-            </tr>
-        </table>
-        <hr>
-        <h3>Education</h3>
-        <table border="0" cellspacing="10">
-            <thead>
-                <th>year</th>
-                <th>school</th>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>2014-2016</td>
-                    <td>School of King Svatopluk</td>
-                </tr>
-                <tr>
-                    <td>2016-2019</td>
-                    <td>Volksschule Bad Deutsch Altenburg</td>
-                </tr>
-                <tr>
-                    <td>2019-2023</td>
-                    <td>Bg Bruck an der Leitha</td>
-                </tr>
-                <tr>
-                    <td>2023-2028</td>
-                    <td>planning to go to Htl Rennweg</td>
-                </tr>            
-            </tbody>
-            <tfoot>
-            </tfoot>
-        </table>
-        <br>
-        <h3>Hobbies</h3>
-        <ol>
-            <li>learning how to programm on <strong><a href="https://www.udemy.com/">Udemy</a></strong></li>
-            <li>computer games</li>
-            <li>3d modeling and 3d printing</li>
-            <li>tinkering with pcs</li>
-            <li>arduino and electoniks</li>
-        </ol>
-        <br>
-        <h3>Skills</h3>
-        <table cellspacing="15">
-            <tbody>
-                <tr>
-                    <td>Python</td>
-                    <td>★★★✰3.5</td>
-                </tr>
-                <tr>
-                    <td>web dev(html, java, css)</td>
-                    <td>★1.0</td>
-                </tr>
-                <tr>
-                    <td>arduino</td>
-                    <td>★★2.0</td>
-                </tr>
-            </tbody>
-        </table>
-        <hr>
-        <center>
-            <p><a href="programming.html">About my programming journey</a></p>
-            <p><a href="contact.html">contact me</a></p>
-        </center>
+        <div class="top_container">
+            <img src="images/cloud.png" alt="cloud-img" class="top_cloud">
+            <h1>I'm Alex.</h1>
+            <h2>a student from Austria</h2> <!-- and <span class="pro">pro</span>grammer</p> -->
+            <img src="images/cloud.png" alt="cloud-img" class="bottom_cloud">
+            <img src="images/mountain.png" alt="mountain-img" class="big_image">
+        </div>
+        <div class="middle-container">
+            <div class="profile">
+              <img src="images/angela.png" alt="image of my face" class="image-of-me">
+              <h2>Hello.</h2>
+              <p class="description">Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio.</p>
+            </div>
+            <hr>
+            <div class="skills">
+              <h2 class="skill-header">My Skills.</h2>
+              <div class="skill-row">
+                <img class="computer-image" src="images/computer.png" alt="">
+                <h3 class="skill-heading0">Lorem & Ipsum</h3>
+                <p class="skill-text0">Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
+              </div>
+              <div class="skill-row">
+                <img class="chilli-image" src="images/chillies.png" alt="">
+                <h3 class="skill-heading1">Lorem Ipsum Dolor</h3>
+                <p class="skill-text1">Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
+              </div>
+            </div>
+            <hr>
+            <div class="contact-me">
+              <h2 class="get-in-touch">Get In Touch</h2>
+              <h3>Lorem ipsum dolor sit amet, non elit.</h3>
+              <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+              <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+            </div>
+        </div>
+          
+          
+        <div class="bottom-container">
+                <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+                <a class="footer-link" href="https://twitter.com/">Twitter</a>
+                <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+            <p class="copyright">© 2022 Alex Elman.</p>
+        </div>
     </body>
-    <!--remember mdn docks-->
 </html>
